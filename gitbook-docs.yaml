@@ -1,0 +1,10 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: "Projeto RTP - Representação Temática Proporcional"
+  structure:
+    - type: space
+      key: rtp
+      title: "Representação Temática Proporcional"
+      path: /
+      content:
+        directory: ./
