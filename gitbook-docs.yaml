@@ -6,5 +6,6 @@ site:
       key: rtp
       title: "Representação Temática Proporcional"
       path: /
+      default: true
       content:
         directory: ./
