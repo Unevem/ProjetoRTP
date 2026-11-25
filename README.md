@@ -1,5 +1,7 @@
 # Representação Temática Proporcional (RTP)
 
+[![DOI](https://zenodo.org/badge/1471315718.svg)](https://doi.org/10.5281/zenodo.24522770)
+
 **Autor:** Gustavo Elorza Rolim | **Licença:** [CC BY 4.0](LICENSE) (textos e minutas) e [MIT](LICENSE) (código em `simulador/`) | **Citação:** [CITATION.cff](CITATION.cff)
 
 Proposta aberta de reforma do sistema eleitoral da Câmara dos Deputados do Brasil, construída no formato de projeto colaborativo de código aberto (*open-source*).

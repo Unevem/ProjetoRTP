@@ -1,5 +1,7 @@
 # Estudo Técnico: Representação Temática Proporcional (RTP) em Comparação com a Lista Aberta e o Voto Distrital Misto
 
+[![DOI](https://zenodo.org/badge/1471315718.svg)](https://doi.org/10.5281/zenodo.24522770)
+
 **Autor:** Gustavo Elorza Rolim | **Licença:** [CC BY 4.0](../LICENSE) | **Como citar:** [CITATION.cff](../CITATION.cff)
 
 > **Como ler este repositório:**
