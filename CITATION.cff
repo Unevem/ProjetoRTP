@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Representação Temática Proporcional (RTP): Estudo Técnico, Minutas Legislativas (PEC, PLP e PRC) e Simulador Eleitoral"
+message: "Se você utilizar, adaptar ou citar esta proposta, seus textos ou seu simulador, por favor cite o autor conforme os metadados abaixo."
+type: software
+authors:
+  - given-names: "Gustavo"
+    family-names: "Elorza Rolim"
+abstract: "Proposta aberta de reforma do sistema eleitoral da Câmara dos Deputados do Brasil (Representação Temática Proporcional - RTP), acompanhada de estudo técnico comparativo neutro (Lista Aberta vs. Voto Distrital Misto vs. RTP), minutas normativas completas (PEC, PLP e Projeto de Resolução da Câmara) e simulador determinístico em Python com alocação biproporcional de Balinski-Demange, método de Sainte-Laguë e voto único transferível simplificado."
+keywords:
+  - "reforma política"
+  - "sistema eleitoral"
+  - "representação temática proporcional"
+  - "voto distrital misto"
+  - "alocação biproporcional"
+  - "Câmara dos Deputados"
+  - "Brasil"
+license: "CC-BY-4.0"
+version: "1.0.0"
+date-released: "2026-11-25"

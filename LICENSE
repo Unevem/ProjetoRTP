@@ -1,0 +1,53 @@
+# Licenciamento Duplo (Textos e Código)
+
+Copyright (c) 2026 Gustavo Elorza Rolim
+
+Este repositório adota **licenciamento duplo**, de acordo com a natureza de cada arquivo:
+
+1. **Textos, estudos técnicos, especificações e minutas legislativas** (`README.md`, `CONTRIBUTING.md`, `SUMMARY.md`, `docs/`, `pec/`, `spec/`, `redteam/`, `decisoes.md`, `contribuicoes/`): licenciados sob **Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)**.
+2. **Código-fonte e testes automatizados** (`simulador/`): licenciados sob a **Licença MIT**.
+
+---
+
+## Parte 1: Licença dos Textos e Documentos (CC BY 4.0)
+
+Exceto onde indicado em contrário, todo o conteúdo textual, analítico, jurídico e documental deste repositório está licenciado sob a licença **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+
+Você tem o direito de:
+- **Compartilhar:** copiar e redistribuir o material em qualquer suporte ou formato.
+- **Adaptar:** remixar, transformar e criar a partir do material para qualquer fim, mesmo que comercial.
+
+Sob os seguintes termos:
+- **Atribuição:** você deve dar o crédito apropriado a **Gustavo Elorza Rolim**, prover um link para a licença e indicar se mudanças foram feitas. Você deve fazê-lo em qualquer circunstância razoável, mas de maneira alguma que sugira que o licenciante apoia você ou o seu uso.
+- **Sem restrições adicionais:** você não pode aplicar termos jurídicos ou medidas de caráter tecnológico que restrinjam legalmente outros de fazerem algo que a licença permita.
+
+Texto integral oficial da licença CC BY 4.0:
+https://creativecommons.org/licenses/by/4.0/legalcode.pt
+
+*(Nota legal sobre atos normativos públicos: nos termos do art. 8º, inciso IV, da Lei Federal nº 9.610/1998, textos oficiais de leis, decretos e proposições já convertidos em atos públicos oficiais não são objeto de proteção autoral. Enquanto obra intelectual, estudo técnico e anteprojeto autoral neste repositório, aplicam-se os termos da CC BY 4.0 acima.)*
+
+---
+
+## Parte 2: Licença do Código-Fonte (`simulador/` - MIT License)
+
+MIT License
+
+Copyright (c) 2026 Gustavo Elorza Rolim
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
