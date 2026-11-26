@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Debate Geral / Dúvidas sobre a Proposta (Discussions)
+    url: https://github.com/Unevem/ProjetoRTP/discussions
+    about: Use as Discussions para debater ideias políticas, fazer perguntas gerais ou comentar pontos do projeto sem precisar abrir uma Issue técnica.
+  - name: Leitura Formatada (GitBook)
+    url: https://unevem.gitbook.io/unevem-docs/
+    about: Leia o Estudo Técnico, a PEC, o PLP e o Regimento em formato de livro navegável.

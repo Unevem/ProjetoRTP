@@ -1,6 +1,10 @@
 # Representação Temática Proporcional (RTP)
 
-[![DOI](https://zenodo.org/badge/1471315718.svg)](https://doi.org/10.5281/zenodo.24522770)
+[![Testes do Simulador](https://github.com/Unevem/ProjetoRTP/actions/workflows/tests.yml/badge.svg)](https://github.com/Unevem/ProjetoRTP/actions/workflows/tests.yml)
+[![Leitura Online](https://img.shields.io/badge/Leitura_Online-GitBook-blue)](https://unevem.gitbook.io/unevem-docs/)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24522770-007ec6)](https://doi.org/10.5281/zenodo.24522770)
+[![Python 3.12+](https://img.shields.io/badge/Python-3.12%2B_stdlib_only-3776AB)](simulador/README.md)
+[![Licença](https://img.shields.io/badge/Licen%C3%A7a-CC_BY_4.0_%2F_MIT-green)](LICENSE)
 
 **Autor:** Gustavo Elorza Rolim | **Leitura Online (GitBook):** [unevem.gitbook.io/unevem-docs](https://unevem.gitbook.io/unevem-docs/) | **Licença:** [CC BY 4.0](LICENSE) (textos e minutas) e [MIT](LICENSE) (código em `simulador/`) | **Citação:** [CITATION.cff](CITATION.cff)
 
