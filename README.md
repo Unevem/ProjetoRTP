@@ -3,10 +3,13 @@
 [![Testes do Simulador](https://github.com/Unevem/ProjetoRTP/actions/workflows/tests.yml/badge.svg)](https://github.com/Unevem/ProjetoRTP/actions/workflows/tests.yml)
 [![Leitura Online](https://img.shields.io/badge/Leitura_Online-GitBook-blue)](https://unevem.gitbook.io/unevem-docs/)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24522770-007ec6)](https://doi.org/10.5281/zenodo.24522770)
+[![Discussions](https://img.shields.io/badge/Debates-Discussions-6f42c1)](https://github.com/Unevem/ProjetoRTP/discussions)
 [![Python 3.12+](https://img.shields.io/badge/Python-3.12%2B_stdlib_only-3776AB)](simulador/README.md)
 [![Licença](https://img.shields.io/badge/Licen%C3%A7a-CC_BY_4.0_%2F_MIT-green)](LICENSE)
 
-**Autor:** Gustavo Elorza Rolim | **Leitura Online (GitBook):** [unevem.gitbook.io/unevem-docs](https://unevem.gitbook.io/unevem-docs/) | **Licença:** [CC BY 4.0](LICENSE) (textos e minutas) e [MIT](LICENSE) (código em `simulador/`) | **Citação:** [CITATION.cff](CITATION.cff)
+**Autor:** Gustavo Elorza Rolim | **Leitura Online (GitBook):** [unevem.gitbook.io/unevem-docs](https://unevem.gitbook.io/unevem-docs/) | **Debates:** [Discussions](https://github.com/Unevem/ProjetoRTP/discussions) | **Licença:** [CC BY 4.0 / MIT](LICENSE) | **Citação:** [CITATION.cff](CITATION.cff)
+
+![Representação Temática Proporcional - Hemiciclo da Câmara por Temas (513 cadeiras)](docs/assets/social_preview_rtp.png)
 
 Proposta aberta de reforma do sistema eleitoral da Câmara dos Deputados do Brasil, construída no formato de projeto colaborativo de código aberto (*open-source*).
 
@@ -46,7 +49,7 @@ Hoje, a discussão política começa com *"em qual partido você votou?"* ou *"e
 | Ler o **Projeto de Resolução da Câmara (PRC)** com regras regimentais internas | [pec/PRC_REGIMENTO_RTP.md](pec/PRC_REGIMENTO_RTP.md) |
 | Inspecionar ou rodar o **Simulador Oficial em Python** (112 testes automatizados) | [simulador/README.md](simulador/README.md) |
 | Entender a **especificação técnica, decisões e histórico de auditoria (Red Team)** | [spec/SPEC-002-desenho.md](spec/SPEC-002-desenho.md) \| [spec/SPEC-002-tecnico.md](spec/SPEC-002-tecnico.md) \| [decisoes.md](decisoes.md) \| [redteam/RT-01-consolidado.md](redteam/RT-01-consolidado.md) |
-| **Criticar, testar ou colaborar** com o projeto | [CONTRIBUTING.md](CONTRIBUTING.md) |
+| **Criticar, testar ou colaborar** com o projeto | [CONTRIBUTING.md](CONTRIBUTING.md) \| [Discussions](https://github.com/Unevem/ProjetoRTP/discussions) \| [Código de Conduta](CODE_OF_CONDUCT.md) |
 
 ---
 
@@ -61,6 +64,36 @@ python simulador/rodar_cenario.py
 # 2. Rodar toda a suíte de 112 testes automatizados
 python -m unittest discover -s simulador/tests
 ```
+
+<details>
+<summary><strong>Ver exemplo de saída real do simulador (27 UFs x 12 Colunas + 5 testes de estresse)</strong></summary>
+
+```text
+1. DIMENSIONAMENTO DOS BLOCOS E COLUNAS TEMÁTICAS NACIONAIS
+  • Bloco 1 (Núcleo de Estado Fixo) : 180 cadeiras (60 por coluna)
+  • Bloco 2 (Colunas Permanentes)   : 259 cadeiras (piso protetor = 20)
+  • Bloco 3 (Missões Presidenciais) :  74 cadeiras (teto efetivo U = 74)
+  • Total da Câmara dos Deputados   : 513 cadeiras
+  Índice de Gallagher (Desproporcionalidade Temática Blocos 2+3): 4.82 p.p.
+
+3. AUDITORIA DAS 6 INVARIANTES CONSTITUCIONAIS
+  [✓] Veredito Global Aprovado      : True
+  [✓] Soma Total == 513 Cadeiras    : True
+  [✓] Pacto Federativo (Art. 45 CF) : True
+  [✓] Fechamento Temático Nacional  : True
+  [✓] Núcleo de Estado (60 fixas)   : True
+  [✓] Pisos Permanentes (>= 20)     : True
+  [✓] Tetos Estaduais de Missão     : True
+
+4. RESULTADOS DOS 5 EXPERIMENTOS DE ESTRESSE
+  • Voto de Enterro (500k eleitores) : +1 cadeira (Saúde: 80 vs 81; Ciência travada no piso)
+  • Puxador +2,5M votos em SP        : +5 cadeiras Segurança (+4 SP, +1 outras UFs; SP fixo em 70)
+  • Filas em Seção (400 eleitores)   : STV enxuto (87s) = 1 na fila às 17h (0,38 min) | 3+ opções = 97 na fila
+  • Turnout Desigual (82% vs 55%)    : Desvio nas bancadas das UFs = 0 | Deslocamento entre colunas = 2
+  • 2% Urnas Remotas Amazônia Legal  : 511/513 cadeiras (99,6%) já definidas antes dos últimos 2%
+```
+
+</details>
 
 ---
 
