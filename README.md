@@ -49,6 +49,7 @@ Hoje, a discussão política começa com *"em qual partido você votou?"* ou *"e
 | Ler o **Projeto de Resolução da Câmara (PRC)** com regras regimentais internas | [pec/PRC_REGIMENTO_RTP.md](pec/PRC_REGIMENTO_RTP.md) |
 | Inspecionar ou rodar o **Simulador Oficial em Python** (112 testes automatizados) | [simulador/README.md](simulador/README.md) |
 | Entender a **especificação técnica, decisões e histórico de auditoria (Red Team)** | [spec/SPEC-002-desenho.md](spec/SPEC-002-desenho.md) \| [spec/SPEC-002-tecnico.md](spec/SPEC-002-tecnico.md) \| [decisoes.md](decisoes.md) \| [redteam/RT-01-consolidado.md](redteam/RT-01-consolidado.md) |
+| **Tentar quebrar o sistema** (lista de ataques abertos e falhas de verificação) | [redteam/ATAQUES_ABERTOS.md](redteam/ATAQUES_ABERTOS.md) \| [enquetes/01-rigidez-bloco-permanente.md](enquetes/01-rigidez-bloco-permanente.md) |
 | **Criticar, testar ou colaborar** com o projeto | [CONTRIBUTING.md](CONTRIBUTING.md) \| [Discussions](https://github.com/Unevem/ProjetoRTP/discussions) \| [Código de Conduta](CODE_OF_CONDUCT.md) |
 
 ---

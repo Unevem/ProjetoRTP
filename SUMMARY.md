@@ -17,6 +17,8 @@
 * [Simulador Oficial em Python](simulador/README.md)
 * [Registro de Decisões do Projeto](decisoes.md)
 * [Auditoria Crítica (Red Team Consolidado)](redteam/RT-01-consolidado.md)
+* [Tente Quebrar a RTP (Ataques em Aberto)](redteam/ATAQUES_ABERTOS.md)
+* [Enquete 01: Rigidez do Bloco Permanente](enquetes/01-rigidez-bloco-permanente.md)
 
 ## Como Colaborar
 
